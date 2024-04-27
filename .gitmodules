@@ -1,0 +1,30 @@
+[submodule "themes/hugo-theme-next"]
+	path = themes/hugo-theme-next
+	url = https://github.com/hugo-next/hugo-theme-next.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
+[submodule "themes/typo"]
+	path = themes/typo
+	url = https://github.com/tomfran/typo.git
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
+[submodule "themes/mini"]
+	path = themes/mini
+	url = https://github.com/nodejh/hugo-theme-mini.git
+[submodule "themes/hugo-geekblog"]
+	path = themes/hugo-geekblog
+	url = https://github.com/thegeeklab/hugo-geekblog.git
+[submodule "themes/hulga"]
+	path = themes/hulga
+	url = https://github.com/wlh320/hugo-theme-hulga.git
+[submodule "themes/lotusdocs"]
+	path = themes/lotusdocs
+	url = https://github.com/colinwilson/lotusdocs
+[submodule "themes/nightfall"]
+	path = themes/nightfall
+	url = https://github.com/LordMathis/hugo-theme-nightfall
