@@ -19,7 +19,7 @@ timeFormat: "2006-01-02T15:04:05-07:00"
 #scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+scheme: Pisces
 
 # 开启暗模式
 # Dark Mode
@@ -28,8 +28,8 @@ darkmode: true
 
 # 站点基本信息
 # Site Information Settings
-author: NexT 主题
-subtitle: 为 Hugo 打造的主题
+author: maxd
+subtitle: 个人技术笔记
 description: 保持简单的易用性和强大的功能。
 keywords: Hugo,NexT,主题,简单,强大
 
@@ -162,9 +162,9 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/elkan1788 || fab fa-github
-  #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+  social0: Github || https://github.com/raydoom || fab fa-github
+  social1: E-Mail || mailto:raydoom@msn.com || fa fa-envelope
+  #social2: 知乎 || https://www.zhihu.com/ || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -204,9 +204,9 @@ linksSets:
 # 用法： `Key: 显示名称 || 链接地址`
 # Links of your friends
 # Usage: `Key: name || permalink`
-links: 
-  link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 凡梦星尘空间站 || https://lisenhui.cn
+#links: 
+  #link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
+  #link1: 凡梦星尘空间站 || https://lisenhui.cn
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -269,16 +269,16 @@ footer:
   beian:
     enable: true
     # ICP 备案的具体信息
-    icp: 粤ICP备 18047355-1 号
+    icp: 鲁ICP备 xxxxxx-1 号
     # 公安网备的省份简称
-    provinceAbbr: 沪
+    provinceAbbr: 鲁
     # 公安网备案号
-    gonganNum: 31011402009770
+    gonganNum: xxxxxxxxxx
 
   # 站点支持供应商列表
   # Vendors list who support website. 
   vendors:
-    enable: true
+    enable: false
     # 支持说明
     # Some support information description.
     title: 提供CDN/云资源支持
@@ -363,14 +363,14 @@ rewardSets:
   animation: true
   # 捐赠信息的描述，支持 HTML 语法
   # Comment for donate and suppport HTML syntax
-  comment: '<i class="fa-solid fa-mug-hot"></i>请我喝杯咖啡吧 ヾ(^▽^*)))'
+  # comment: '<i class="fa-solid fa-mug-hot"></i>请我喝杯咖啡吧 ヾ(^▽^*)))'
   # 捐赠方式
   # 用例： `名称:图像地址`
   # Donate type
   # Usage: `name:image url`
-  reward:
-    wechatpay: /imgs/wechat-pay.png
-    alipay: /imgs/ali-pay.png
+  # reward:
+  # wechatpay: /imgs/wechat-pay.png
+    #alipay: /imgs/ali-pay.png
     #paypal: /images/paypal.png
     #bitcoin: /images/bitcoin.png
 

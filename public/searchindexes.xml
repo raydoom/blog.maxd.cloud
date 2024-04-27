@@ -70,9 +70,19 @@ customFilePath: sidebar: custom_sidebar.html footer: custom_footer.html style: /
 鲁迅
 信息块 支持 default，info，success，warning，danger 等五种不同效果的展示，语法参考如下：
 {{&lt; note [class] [no-icon] &gt;}} 书写表达的信息 支持 Markdown 语法 {{&lt; /note &gt;}} 实际效果：
-Default Header without icon Welcome to Hugo NexT! Default Header Welcome to Hugo NexT! Info Header Welcome to Hugo NexT! Success Header Welcome to Hugo NexT! Warning Header Welcome to Hugo NexT! Danger Header Welcome to Hugo NexT!   ]]></content></entry><entry><title>关于 Hugo NexT 组织</title><url>/about.html</url><categories/><tags/><content type="html"> Hugo NexT 组织是由众多喜爱 NexT 主题及风格的世界各地友人共同组建而成，为的就是让这个主题继续在 Hugo 引擎中也能得到发扬光大，在此也欢迎你的加入！
-我们的愿景 延续 NexT 经典的黑白调搭配，保持简单的易用性及强大的功能。
-使用反馈 加入 GitHub Discussions 或 Gitter 在线讨论 &amp;#x1f37b; GitHub Issues 提交错误报告 &amp;#x1f41b; GitHub Feature 表新功能的想法 &amp;#x2728; 同时国内用户也可加入 QQ 群交流： 604710815</content></entry><entry><title>文章目录导航</title><url>/post/table-of-content.html</url><categories><category>示例</category></categories><tags><tag>目录</tag><tag>导航</tag><tag>博客</tag></tags><content type="html"> 巴顿将军说过：“衡量一个人是否成功，不是看他站到顶峰，而是从顶峰跌落之后的反弹力”，褚时健的人生便是如此，中年发家致富，名利双收，之后又跌落到谷底，等到74岁再创业，10年后带着褚橙归来，东山再起收获亿万财富，他的发展轨迹就是反弹的过程。
+Default Header without icon Welcome to Hugo NexT! Default Header Welcome to Hugo NexT! Info Header Welcome to Hugo NexT! Success Header Welcome to Hugo NexT! Warning Header Welcome to Hugo NexT! Danger Header Welcome to Hugo NexT!   ]]></content></entry><entry><title>关于 Hugo NexT 组织</title><url>/about.html</url><categories/><tags/><content type="html"> 个人笔记</content></entry><entry><title>mysql事务隔离级别</title><url>/post/mysql-shi-wu-ge-li.html</url><categories><category>示例</category></categories><tags><tag>目录</tag><tag>导航</tag><tag>博客</tag></tags><content type="html"><![CDATA[  mysql事务隔离级别设置.
+概述 mysql事务隔离级别设置.
+查询和设置 查看当前设置 查询全局和会话事务隔离级别
+mysql&gt; select @@tx_isolation; mysql&gt; select @@global.tx_isolation; mysql&gt; select @@session.tx_isolation; 设置隔离级别 设置当前会话隔离级别
+mysql&gt; set tx_isolation = &#39;read-committed&#39;; 设置系统隔离级别
+mysql&gt; set global tx_isolation = &#39;read-committed&#39;; 命令行操作，开始事务时
+mysql&gt; start transaction 配置文件写法 在my.cnf中加入一行
+transaction-isolation = read-committed 事务隔离级别说明 事务隔离级别
+read-uncommitted 可以看到未提交的数据（脏读）
+read-committed 读取提交的数据。但是，可能多次读取的数据结果不一致（不可重复读，幻读）
+repeatable-read (mysql默认隔离级别) 可以重复读取，但有幻读。读写观点：读取的数据行不可写，但是可以往表中新增数据。在mysql中，其他事务新增的数据，看不到，不会产生幻读。采用多版本并发控制（MVCC）机制解决幻读问题
+serializable 可读，不可写。写数据必须等待另一个事务结束
+  ]]></content></entry><entry><title>文章目录导航</title><url>/post/table-of-content.html</url><categories><category>示例</category></categories><tags><tag>目录</tag><tag>导航</tag><tag>博客</tag></tags><content type="html"> 巴顿将军说过：“衡量一个人是否成功，不是看他站到顶峰，而是从顶峰跌落之后的反弹力”，褚时健的人生便是如此，中年发家致富，名利双收，之后又跌落到谷底，等到74岁再创业，10年后带着褚橙归来，东山再起收获亿万财富，他的发展轨迹就是反弹的过程。
 早年的故事 起始 2014年的春天，在云南省华宁县和宜良县的交界处，一座名叫矣则的小山村里，一处已经有上百年历史的古旧四合院宅子被拆掉。村委会正带领村民们进行“美丽乡村”的建设，一年以后，旧有村居将再也看不到，代之而起的是钢筋混凝土的新式民居。就像10年、20年前中国大小城市的改造一样，这个群山围绕的小村子也开始陷入“工地模式”。
 童年浪花 在江河边长大的孩子几乎都有一个当仁不让的特长：善水。褚时健也不例外，他不仅从小就在南盘江和花鱼塘里扑腾出了上佳的游泳技术，五六岁已经可以一个猛子扎出老远，而且从七八岁就可以在南盘江和河滩上的鱼塘里捉鱼了。
 少年故事 褚时健在乡村自由自在生活的十多年，其实正是中国社会风雨飘摇的十多年。特别是1937年卢沟桥事变后，日本人发动全面侵华战争，短短两三年间，中国的大部分国土相继沦陷
