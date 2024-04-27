@@ -1,3 +1,3 @@
-# Hugo NexT theme starter
+# Maxd Note
 
 maxd的技术文档
