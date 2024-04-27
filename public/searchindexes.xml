@@ -70,7 +70,7 @@ customFilePath: sidebar: custom_sidebar.html footer: custom_footer.html style: /
 鲁迅
 信息块 支持 default，info，success，warning，danger 等五种不同效果的展示，语法参考如下：
 {{&lt; note [class] [no-icon] &gt;}} 书写表达的信息 支持 Markdown 语法 {{&lt; /note &gt;}} 实际效果：
-Default Header without icon Welcome to Hugo NexT! Default Header Welcome to Hugo NexT! Info Header Welcome to Hugo NexT! Success Header Welcome to Hugo NexT! Warning Header Welcome to Hugo NexT! Danger Header Welcome to Hugo NexT!   ]]></content></entry><entry><title>关于 Hugo NexT 组织</title><url>/about.html</url><categories/><tags/><content type="html"> 个人笔记</content></entry><entry><title>mysql事务隔离级别</title><url>/post/mysql-shi-wu-ge-li.html</url><categories><category>示例</category></categories><tags><tag>目录</tag><tag>导航</tag><tag>博客</tag></tags><content type="html"><![CDATA[  mysql事务隔离级别设置.
+Default Header without icon Welcome to Hugo NexT! Default Header Welcome to Hugo NexT! Info Header Welcome to Hugo NexT! Success Header Welcome to Hugo NexT! Warning Header Welcome to Hugo NexT! Danger Header Welcome to Hugo NexT!   ]]></content></entry><entry><title>关于 Maxd Note</title><url>/about.html</url><categories/><tags/><content type="html"> 个人笔记</content></entry><entry><title>mysql事务隔离级别</title><url>/post/mysql-shi-wu-ge-li.html</url><categories><category>示例</category></categories><tags><tag>目录</tag><tag>导航</tag><tag>博客</tag></tags><content type="html"><![CDATA[  mysql事务隔离级别设置.
 概述 mysql事务隔离级别设置.
 查询和设置 查看当前设置 查询全局和会话事务隔离级别
 mysql&gt; select @@tx_isolation; mysql&gt; select @@global.tx_isolation; mysql&gt; select @@session.tx_isolation; 设置隔离级别 设置当前会话隔离级别
