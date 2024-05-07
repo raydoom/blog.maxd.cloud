@@ -270,11 +270,11 @@ footer:
   beian:
     enable: true
     # ICP 备案的具体信息
-    icp: 鲁ICP备 xxxxxx-1 号
+    icp: 鲁ICP备 2024090170号-1 号
     # 公安网备的省份简称
     provinceAbbr: 鲁
     # 公安网备案号
-    gonganNum: xxxxxxxxxx
+    gonganNum: 
 
   # 站点支持供应商列表
   # Vendors list who support website. 
