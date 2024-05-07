@@ -23,7 +23,7 @@ scheme: Pisces
 
 # 开启暗模式
 # Dark Mode
-darkmode: true
+darkmode: false
 
 
 # 站点基本信息
@@ -135,6 +135,7 @@ avatar:
   # 设置显示头像的相对路径
   # Replace the default image and set the url here.
   url: /imgs/hugo_next_avatar.png
+  url: https://dl.maxd.cloud:9527/other/disc.jpeg
   # 开启头像的圆形显示效果
   # If true, the avatar will be displayed in circle.
   rounded: true
